@@ -134,7 +134,8 @@ public class text2ascii {
 
     	//run for i number of folders
     	//WorseApple1, WorseApple2,...WorseApple12
-    	for(int i = 1; i <= 12; i++) 
+		//due to GitHub upload limits, only 1 folder is in the repo for demonstration
+    	for(int i = 1; i <= 1; i++) 
     	{
     		createTxt(folderName+Integer.toString(i));
     	}
